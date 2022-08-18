@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="main__body">
+<div class="cursor"></div>
+<div class="follower"></div>
+<div class="overlay">
+    <header>
+        <!-- Navabr -->
+        <nav>
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="#"> <img src="./img/logo.svg" alt="logo" /> </a>
+                    </div>
+                    <ul class="menu" id="menu">
+                        <li class="menu__item">
+                            <a href="#about" class="menu__item-link" data-scroll>About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#projects" class="menu__item-link" data-scroll>Projects</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#reviews" class="menu__item-link" data-scroll>Reviews</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#footer" class="menu__item-link" data-scroll>Contacts</a>
+                        </li>
+                    </ul>
+                    <div class="burger" id="burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navabr -->
+
+        <div class="container">
+            <div class="header">
+                <div class="header__item">
+                    <h1 class="title">Michael Scofield</h1>
+                    <h2 class="subtitle">Fullstack web developer</h2>
+                    <div class="info">
+                        <div class="info__item">UI / UX Design</div>
+                        <div class="info__item">QA Testing</div>
+                        <div class="info__item">Mobile Apps</div>
+                        <div class="info__item">Web development</div>
+                    </div>
+                </div>
+                <div class="header__item canvas__item">
+                    <canvas id="canvasOne" width="550" height="550"></canvas>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <div class="section__about">
+            <div class="container">
+                <h4 class="section__subtitle">About</h4>
+                <h3 class="section__title">History of my development:</h3>
+                <div class="about">
+                    <div class="about__item">
+                        <div class="about__num">2015</div>
+                        <div class="about__text">
+                            First project. Blog for the teacher
+                        </div>
+                    </div>
+
+                    <div class="about__item">
+                        <div class="about__num">2016</div>
+                        <div class="about__text">
+                            Development of the first mobile application
+                        </div>
+                    </div>
+
+                    <div class="about__item">
+                        <div class="about__num">2017</div>
+                        <div class="about__text">
+                            The portfolio includes over 100 projects
+                        </div>
+                    </div>
+
+                    <div class="about__item">
+                        <div class="about__num">2018</div>
+                        <div class="about__text">First international project</div>
+                    </div>
+
+                    <div class="about__item">
+                        <div class="about__num">2019</div>
+                        <div class="about__text">
+                            Development of the first mobile application
+                        </div>
+                    </div>
+
+                    <div class="about__item">
+                        <div class="about__num">2020+</div>
+                        <div class="about__text">Started working in Google</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+        <div class="section__projects">
+            <div class="container">
+                <h4 class="section__subtitle">Projects</h4>
+                <h3 class="section__title">100+ projects on different topics:</h3>
+                <div class="projects">
+                    <!-- Tabs -->
+                    <div class="tabs">
+                        <div class="tabs__header">
+                            <div class="tabs__header-item active">Blogs</div>
+                            <div class="tabs__header-item">CRM</div>
+                            <div class="tabs__header-item">Educational platform</div>
+                            <div class="tabs__header-item">Banking applications</div>
+                            <div class="tabs__header-item">Mobile applications</div>
+                            <div class="tabs__header-item">Mobile games</div>
+                            <div class="tabs__header-item">Social networks</div>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__content-item">
+                                <div class="tab__content left__content">
+                                    <div class="tab__title">Blogs</div>
+                                </div>
+                                <div class="tab__content right__content">
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <div class="accordion__item accordion__item-active">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__content-item">
+                                <div class="tab__content left__content">
+                                    <div class="tab__title">CRM</div>
+                                </div>
+                                <div class="tab__content right__content">
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <div class="accordion__item accordion__item-active">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__content-item">
+                                <div class="tab__content left__content">
+                                    <div class="tab__title">Educational platform</div>
+                                </div>
+                                <div class="tab__content right__content">
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <div class="accordion__item accordion__item-active">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__content-item">
+                                <div class="tab__content left__content">
+                                    <div class="tab__title">Banking applications</div>
+                                </div>
+                                <div class="tab__content right__content">
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <div class="accordion__item accordion__item-active">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__content-item">
+                                <div class="tab__content left__content">
+                                    <div class="tab__title">Mobile applications</div>
+                                </div>
+                                <div class="tab__content right__content">
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <div class="accordion__item accordion__item-active">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__content-item">
+                                <div class="tab__content left__content">
+                                    <div class="tab__title">Mobile games</div>
+                                </div>
+                                <div class="tab__content right__content">
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <div class="accordion__item accordion__item-active">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tabs__content-item">
+                                <div class="tab__content left__content">
+                                    <div class="tab__title">Social networks</div>
+                                </div>
+                                <div class="tab__content right__content">
+                                    <!-- Accordion -->
+                                    <div class="accordion">
+                                        <div class="accordion__item accordion__item-active">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3 -->
+                                    <div class="accordion">
+                                        <div class="accordion__item">
+                                            <div class="accordion__item-trigger">
+                                                <div class="trigger__text">Blog 1</div>
+                                                <div class="trigger__img">
+                                                    <img src="./img/accardionArrow.svg" alt="arrow" />
+                                                </div>
+                                            </div>
+                                            <div class="accordion__item-content">
+                                                <div class="content__text">
+                                                    some kind of link to the site
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="section__contact">
+        <div class="contianer">
+            <div class="contact">
+                <div class="contact-title">
+                    Write to me and I will answer within the next 24 hours
+                </div>
+                <a href="#" class="contact__btn modal__btn">Discuss the project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section__reviews" id="reviews">
+        <div class="container">
+            <h4 class="section__subtitle">Reviews</h4>
+            <h3 class="section__title">What my clients say about me:</h3>
+
+            <div class="reviews">
+                <div class="arrows">
+                    <div class="arrow__btn arrow__btn-prev"><img class="prev__arrow" src="./img/Left.svg" alt=""></div>
+                    <div class="arrow__btn arrow__btn-next"><img class="next__arrow" src="./img/Rigthsvg.svg" alt=""></div>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- 1 -->
+                        <div class="swiper-slide">
+                            <div class="slide__img">
+                                <img src="./img/LincolnB.png" alt="img" />
+                            </div>
+                            <div class="slide__title">Lincoln Burrows</div>
+                            <div class="slide__text">
+                                Thanks to Michael for doing everything efficiently on time
+                                and without broaches. I recommend this specialist for work.
+                                Special thanks to Michael for the work that was not included
+                                in the original.
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="swiper-slide">
+                            <div class="slide__img">
+                                <img src="./img/Gretchen.png" alt="img" />
+                            </div>
+                            <div class="slide__title">Gretchen Morgan</div>
+                            <div class="slide__text">
+                                Thank you very much for your work, the project was completed
+                                very quickly and efficiently. I recommend it as a reliable
+                                performer! I will contact you in the future.
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="swiper-slide">
+                            <div class="slide__img">
+                                <img src="./img/Paul.png" alt="img" />
+                            </div>
+                            <div class="slide__title">Paul Kellerman</div>
+                            <div class="slide__text">
+                                The performer who specifically understands the task. Very
+                                cool and easy to communicate. I did an excellent job, I will
+                                contact you. I advise everyone!
+                            </div>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+
+
+    <!-- Modal -->
+
+    <div class="modal__wrapper">
+        <div class="modal">
+            <div class="modal__close">
+                <img
+                        src="./img/cancel.svg"
+                        alt="cancel"
+                        width="10px"
+                        height="10px"
+                />
+            </div>
+            <div class="modal__title"><span>Сontact me:</span></div>
+            <div class="modal__body">
+                <form>
+                    <input type="text" placeholder="Name" />
+                    <textarea placeholder="Message"></textarea>
+                    <button>Discuss the project</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+    <div class="container">
+        <div class="footer">
+            <div class="footer__item">
+                <form class="form">
+                    <div class="form__title">Calculate the timing and cost of your project</div>
+                    <div class="form__subtitle">Leave your phone number for communication</div>
+                    <input type="text" class="form__input" placeholder="Name">
+                    <input type="tel" class="form__input" placeholder="Phone">
+                    <textarea class="form__textarea" placeholder="Message"></textarea>
+                    <button class="footer-btn">Discuss the project</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</html>
